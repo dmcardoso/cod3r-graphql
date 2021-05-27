@@ -1,0 +1,10 @@
+type Query {
+  hello: String
+  date: Date
+  loggedUser: User
+  numbersArray: [Int!]!
+  users: [User]
+  user(id: Int): User
+  profiles: [Profile]
+  profile(id: Int): Profile
+}
